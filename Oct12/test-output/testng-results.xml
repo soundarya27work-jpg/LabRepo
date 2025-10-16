@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser launched and navigated to TutorialsNinja demo site]]>
+    </line>
+    <line>
+      <![CDATA[Verifying home page title: Your Store]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Desktops' tab]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Mac' link]]>
+    </line>
+    <line>
+      <![CDATA[Verifying heading: Mac]]>
+    </line>
+    <line>
+      <![CDATA[Selected 'Name (A - Z)' from Sort By dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Add to Cart' button]]>
+    </line>
+    <line>
+      <![CDATA[Entered 'Monitors' in search box]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Search' button]]>
+    </line>
+    <line>
+      <![CDATA[Search results loaded]]>
+    </line>
+    <line>
+      <![CDATA[Cleared search criteria]]>
+    </line>
+    <line>
+      <![CDATA[Checked 'Search in product descriptions']]>
+    </line>
+    <line>
+      <![CDATA[Clicked on 'Search' button again]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-10-16T21:55:33 IST" name="Default suite" finished-at="2025-10-16T21:55:43 IST" duration-ms="9552">
+    <groups>
+    </groups>
+    <test started-at="2025-10-16T21:55:33 IST" name="Default test" finished-at="2025-10-16T21:55:43 IST" duration-ms="9552">
+      <class name="Pack1.Lab8_TestNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Pack1.Lab8_TestNG@13f95696]" started-at="2025-10-16T21:55:33 IST" name="setUp" finished-at="2025-10-16T21:55:40 IST" duration-ms="6702" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser launched and navigated to TutorialsNinja demo site]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageTitle()[pri:1, instance:Pack1.Lab8_TestNG@13f95696]" started-at="2025-10-16T21:55:40 IST" name="verifyHomePageTitle" finished-at="2025-10-16T21:55:40 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying home page title: Your Store]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method signature="navigateToMacSection()[pri:2, instance:Pack1.Lab8_TestNG@13f95696]" started-at="2025-10-16T21:55:40 IST" name="navigateToMacSection" finished-at="2025-10-16T21:55:40 IST" duration-ms="485" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on 'Desktops' tab]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Mac' link]]>
+            </line>
+            <line>
+              <![CDATA[Verifying heading: Mac]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToMacSection -->
+        <test-method signature="sortAndAddToCart()[pri:3, instance:Pack1.Lab8_TestNG@13f95696]" started-at="2025-10-16T21:55:40 IST" name="sortAndAddToCart" finished-at="2025-10-16T21:55:41 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Selected 'Name (A - Z)' from Sort By dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Add to Cart' button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sortAndAddToCart -->
+        <test-method signature="searchMonitorsAndRefine()[pri:4, instance:Pack1.Lab8_TestNG@13f95696]" started-at="2025-10-16T21:55:41 IST" name="searchMonitorsAndRefine" finished-at="2025-10-16T21:55:42 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered 'Monitors' in search box]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Search' button]]>
+            </line>
+            <line>
+              <![CDATA[Search results loaded]]>
+            </line>
+            <line>
+              <![CDATA[Cleared search criteria]]>
+            </line>
+            <line>
+              <![CDATA[Checked 'Search in product descriptions']]>
+            </line>
+            <line>
+              <![CDATA[Clicked on 'Search' button again]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchMonitorsAndRefine -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Pack1.Lab8_TestNG@13f95696]" started-at="2025-10-16T21:55:42 IST" name="tearDown" finished-at="2025-10-16T21:55:43 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Pack1.Lab8_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
