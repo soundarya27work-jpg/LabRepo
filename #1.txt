@@ -1,0 +1,101 @@
+Started by user Soundarya
+Running as SYSTEM
+Building in workspace C:\Users\Ascendion\.jenkins\workspace\Oct22nd_job
+[Oct22nd_job] $ cmd /c call C:\Users\ASCEND~1\AppData\Local\Temp\jenkins17299042161213938958.bat
+
+C:\Users\Ascendion\.jenkins\workspace\oct22nd_job>cd C:\Users\Ascendion\Downloads\LabRepo-main\LabRepo-main\Oct12 
+
+C:\Users\Ascendion\Downloads\LabRepo-main\LabRepo-main\Oct12>mvn clean test 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------------< Oct12:Oct12 >-----------------------------
+[INFO] Building Oct12 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Oct12 ---
+[INFO] Deleting C:\Users\Ascendion\Downloads\LabRepo-main\LabRepo-main\Oct12\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Oct12 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Ascendion\Downloads\LabRepo-main\LabRepo-main\Oct12\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ Oct12 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Oct12 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\Ascendion\Downloads\LabRepo-main\LabRepo-main\Oct12\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ Oct12 ---
+[INFO] Recompiling the module because of changed source code.
+[WARNING] File encoding has not been set, using platform encoding windows-1252, i.e. build is platform dependent!
+[INFO] Compiling 27 source files with javac [debug target 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Oct12 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+This is before suite
+This is before test
+This is before test
+This is before test
+This is before class
+This is before class
+This is before class
+This is before method
+This is before method
+This is before method
+Oct 23, 2025 9:21:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+This is the Test
+This is the Test
+This is after method
+This is after method
+This is the Test
+This is after method
+This is before method
+This is before method
+this is test2
+This is after method
+This is before method
+Oct 23, 2025 9:22:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+this is test2
+This is after method
+this is test2
+This is after method
+This is before method
+This is test3
+This is after method
+This is before method
+Oct 23, 2025 9:23:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 140; Please update to a Selenium version that supports CDP version 141
+This is test3
+This is after method
+This is before method
+This is test3
+This is after method
+This is after class
+This is after test
+This is after class
+This is after test
+This is after class
+This is after test
+This is after suite
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 197.4 s -- in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  04:21 min
+[INFO] Finished at: 2025-10-23T09:23:34+05:30
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
